@@ -1,0 +1,46 @@
+ PS C:\MinGW\bin\git\professorjs> ls -Force
+
+
+    Directory: C:\MinGW\bin\git\professorjs
+
+
+Mode                 LastWriteTime         Length Name
+----                 -------------         ------ ----
+d--h--         9/26/2025  11:24 AM                .git
+-a----         9/26/2025  11:24 AM             15 README.md
+
+PS C:\MinGW\bin\git> cd professorjs
+PS C:\MinGW\bin\git\professorjs> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+nothing to commit, working tree clean
+PS C:\MinGW\bin\git\professorjs> git add com.txt
+PS C:\MinGW\bin\git\professorjs> git ststus
+git: 'ststus' is not a git command. See 'git --help'.
+
+The most similar command is
+        status
+PS C:\MinGW\bin\git\professorjs> git status
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        new file:   com.txt
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   README.md
+
+PS C:\MinGW\bin\git\professorjs> git add .\README.md
+PS C:\MinGW\bin\git\professorjs> git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   README.md
+        new file:   com.txt
+
+PS C:\MinGW\bin\git\professorjs>
