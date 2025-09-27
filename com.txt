@@ -79,3 +79,21 @@ Writing objects: 100% (4/4), 754 bytes | 251.00 KiB/s, done.
 Total 4 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
 To https://github.com/PrProfessor/professorjs.git
    cad29af..bb74b0c  main -> main
+
+
+
+   PS C:\MinGW\bin\git\professorpy> git branch
+* main
+PS C:\MinGW\bin\git\professorpy> git check out -b feature1
+git: 'check' is not a git command. See 'git --help'.
+
+The most similar command is
+        checkout
+PS C:\MinGW\bin\git\professorpy> git checkout -b feature1 
+Switched to a new branch 'feature1'
+PS C:\MinGW\bin\git\professorpy> git branch
+* feature1
+  main
+PS C:\MinGW\bin\git\professorpy> git checkout main
+Switched to branch 'main'
+PS C:\MinGW\bin\git\professorpy> 
